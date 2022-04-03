@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import DigitarMensagem from './components/DigitarMensagem/DigitarMensagem';
+
+const BoxWhyzap = styled.section`
+  border: 1px solid black;
+  height: 700px;
+  width: 70%;
+  max-width: 1280px;
+  margin: 20px auto;
+  background-color: #e0d7cd;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BoxWhyzap>
+        <DigitarMensagem />
+      </BoxWhyzap>
     </div>
   );
 }
