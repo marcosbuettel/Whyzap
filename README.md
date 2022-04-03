@@ -1,6 +1,9 @@
+Descrição do projeto:
+Chat estilo Whatsapp. Para mandar mensagem, digite o nome do remetente no primeiro campo.
+Caso queira mandar mensagem como você mesmo, digite "eu" (sem as aspas e sempre minúsculo) no primeiro campo.
+
 LINK DO PROJETO:
 profuse-scarf.surge.sh
-
 
 # Getting Started with Create React App
 
